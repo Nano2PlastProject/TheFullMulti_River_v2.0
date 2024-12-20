@@ -1,6 +1,11 @@
 # TheFullMulti_River_v2.0
 New version of The Full Multi River model after correction of several bugs found in the original model code [TheFullMulti_RIVER](https://github.com/Nano2PlastProject/TheFullMulti_RIVER)
 
+
+### Requirements
+- Python 3.9.7
+- Required packages: see `requirements.txt`
+
 The corrections include:
 
 - Bugs in the calculation of mixing rates between the surface, flowing and stagnant water compartments have been corrected to properly reflect the configuration described in Domercq et al. 2022 (Table S2). Mixing rates between stagnant water and sediment layer have been removed.
